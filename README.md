@@ -25,7 +25,7 @@ description: Get device information.
 |:-:|:-:|
 |[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-device?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-device)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-device.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-device)|
 
-# cordova-plugin-device
+# FIRST-CORDOVA-PLUGIN-BY-HARSHIT
 
 This plugin defines a global `device` object, which describes the device's hardware and software.
 Although the object is in the global scope, it is not available until after the `deviceready` event.
@@ -39,7 +39,7 @@ function onDeviceReady() {
 
 ## Installation
 
-    cordova plugin add cordova-plugin-device
+    cordova plugin add first-cordova-plugin-by-harshit
 
 ## Properties
 
