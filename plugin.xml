@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="first-cordova-plugin-by-harshit"
     version="0.1">
-    <name>First Cordova Plugin BY Harshit</name>
+    <name>FirstCordovaPluginByHarshit</name>
     <description>First Cordova Plugin BY Harshit</description>
     <license>Apache 2.0</license>
     <keywords>cordova,device,First,Cordova,Plugin,BY Harshit</keywords>

@@ -1,40 +1,34 @@
 {
-  "name": "cordova-plugin-device",
+  "name": "cordova-plugin-by-harshit",
   "version": "2.0.4-dev",
-  "description": "Cordova Device Plugin",
+  "description": "First Cordova Plugin By Harshit",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-device",
+    "id": "cordova-plugin-by-harshit",
     "platforms": [
       "android",
-      "ios",
-      "windows",
-      "browser",
-      "osx"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-device"
+    "url": "https://github.com/HarshitChhipa/FirstCordovaPluginByHarshit"
   },
   "bugs": {
-    "url": "https://github.com/apache/cordova-plugin-device/issues"
+    "url": "https://github.com/HarshitChhipa/FirstCordovaPluginByHarshit/issues"
   },
   "keywords": [
     "cordova",
-    "device",
+    "FirtPluginByHarshit",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios",
-    "cordova-windows",
-    "cordova-browser",
-    "cordova-osx"
+    "cordova-ios"
   ],
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint ."
   },
-  "author": "Apache Software Foundation",
+  "author": "Harshit Chhipa",
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
