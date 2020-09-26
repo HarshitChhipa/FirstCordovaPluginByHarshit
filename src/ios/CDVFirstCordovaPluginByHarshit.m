@@ -7,14 +7,22 @@
 - (void)pluginInitialize {
 }
 
--(void) echo : (CDVInvokedUrlCommand *) command{
+-(void) sayMyName : (CDVInvokedUrlCommand *) command{
     NSString * pharse = [command.arguments objectAtIndex:0];
     NSLog(@*"%@", pharse)
 }
 
--(void) getMyBirthDay: (CDVInvokedUrlCommand * ) command {
+-(void) sayTheDate: (CDVInvokedUrlCommand * ) command {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     NSLocal *enUSPOSIXLocale = [NALocale localWithLocaleIdentifier: @"en_US_POSIX"];
+    [dateFormatter setLocal: enUSPOSIXLocale];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZZZZZ"];
+    
+    NSDate *now = [NSDate date];
+    NSString *iso8601String = [dateFormatter stringFromDate: now];
+    
+    CDVPluginResult *result = [CDVPluginResult resultWithStatus: CDVCommandStatus_OK messageAsString:iso8601String];
+    [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
 }
 @end
 

@@ -5,7 +5,7 @@
 }
 // Hooks for my plugin command
 
-- (void) echo: (CDVInvokedUrlCommand *) command;
-- (void) getMyBirthDay: (CDVInvokedUrlCommand *) command;
+- (void) sayMyName: (CDVInvokedUrlCommand *) command;
+- (void) sayTheDate: (CDVInvokedUrlCommand *) command;
 
 @end

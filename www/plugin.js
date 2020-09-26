@@ -4,11 +4,11 @@ var exec = require('cordova/exec');
 var PLUGIN_NAME = "FirstCordovaPluginByHarshit"
 
 var FirstCordovaPluginByHarshit = {
-    echo : function (phrase, callBackFunction) {
-        exec(callBackFunction,null,PLUGIN_NAME,'echo',[phrase]);
+    sayMyName : function (phrase, callBackFunction) {
+        exec(callBackFunction,null,PLUGIN_NAME,'sayMyName',[phrase]);
     },
-    getMyBirthDay : function (callBackFunction) {
-        exec(callBackFunction,null,PLUGIN_NAME,'getMyBirthDay',[]);
+    sayTheDate : function (callBackFunction) {
+        exec(callBackFunction,null,PLUGIN_NAME,'sayTheDate',[]);
     }
 }
 
