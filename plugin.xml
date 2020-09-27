@@ -11,7 +11,7 @@
     <repo>https://github.com/HarshitChhipa/FirstCordovaPluginByHarshit.git</repo>
     <issue>https://issues.apache.org/jira/browse/CB/component/12320648</issue>
 
-    <js-module src="www/plugin.js" name="FirstCordovaPluginByHarshit">
+    <js-module src="www/plugin.js" name="plugin">
         <runs/>
         <clobbers target="FirstCordovaPluginByHarshit" />
     </js-module>
@@ -20,12 +20,12 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FirstCordovaPluginByHarshit" >
-                <param name="android-package" value="org.apache.cordova.device.FirstCordovaPluginByHarshit"/>
+                <param name="android-package" value="org.apache.cordova.FirstCordovaPluginByHarshit"/>
                 <param name="onload" value="true" />
             </feature>
         </config-file>
 
-        <source-file src="src/android/FirstCordovaPluginByHarshit.java" target-dir="src/org/apache/cordova/device" />
+        <source-file src="src/android/FirstCordovaPluginByHarshit.java" target-dir="src/org/apache/cordova/FirstCordovaPluginByHarshit/FirstCordovaPluginByHarshit" />
     </platform>
 
     <!-- ios -->
