@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-by-harshit",
-  "version": "2.0.4-dev",
+  "version": "0.0.1",
   "description": "First Cordova Plugin By Harshit",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -22,7 +22,9 @@
     "FirtPluginByHarshit",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova:sayTheName",
+    "cordova:sayTheDate"
   ],
   "scripts": {
     "test": "npm run lint",
